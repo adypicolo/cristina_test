@@ -129,18 +129,3 @@ Pe unele sisteme Windows este posibil ca scripturile sa nu porneasca direct din 
 Set-ExecutionPolicy Unrestricted
 ```
 
-Dupa aceea se pot incerca din nou comenzile de mai sus.
-
-## Cum functioneaza pe scurt
-
-La inceputul jocului sunt create doua personaje. Fiecare primeste automat valori random pentru atac si aparare. In timpul luptei, damage-ul de baza se calculeaza din diferenta dintre attack-ul atacatorului si defense-ul aparatorului. Peste acest damage intervin abilitatile speciale, care pot modifica rezultatul final al unui atac.
-
-In modul normal, abilitatile se pot schimba de la o runda la alta. In modul fixed, fiecare personaj ramane cu abilitatea primita la inceput. Modul simulation repeta lupta de 1000 de ori pentru a observa rezultate medii, nu doar un singur caz.
-
-## Scopul proiectului
-
-Scopul acestui proiect a fost sa exersez lucrul cu TypeScript, organizarea codului pe module si implementarea unei logici simple de joc in consola. In acelasi timp, proiectul poate fi folosit si pentru a observa cum mici diferente de stats si abilitati pot influenta rezultatul unei lupte.
-
-## Autor
-
-Proiect realizat ca exercitiu / proiect de laborator pentru practica in TypeScript si Node.js.
